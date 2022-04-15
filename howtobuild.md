@@ -9,17 +9,17 @@ sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev lib
 
 *Step 2: Install BerkeleyDB using the below commands (If not already Installed)
 
-wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
-tar -xvf db-4.8.30.NC.tar.gz
-cd db-4.8.30.NC/build_unix
-mkdir -p build
-BDB_PREFIX=$(pwd)/build
-../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX
-sudo make install
+wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz                                                                                                       
+tar -xvf db-4.8.30.NC.tar.gz                                                                                                                                         
+cd db-4.8.30.NC/build_unix                                                                                                                                            
+mkdir -p build                                                                                                                                                        
+BDB_PREFIX=$(pwd)/build                                                                                                                                              
+../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX                                                                                       
+sudo make install                                                                                                                                                     
 
 *Step 3: Build the Coin
 
-./autogen.sh
+./autogen.sh                                                                                                                                                         
 ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/"
 make                                                                                                                                                                   
 sudo make install                                                                                                                                                    
