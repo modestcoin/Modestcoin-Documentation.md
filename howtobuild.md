@@ -21,12 +21,12 @@ sudo make install
 
 ./autogen.sh
 ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/"
-make
-sudo make install
-cd ~
-cd modestcoin/src
-./modestcoind
-./modestcoin-cli getnewaddress
+make                                                                                                                                                                   
+sudo make install                                                                                                                                                    
+cd ~                                                                                                                                                                  
+cd modestcoin/src                                                                                                                                                    
+./modestcoind                                                                                                                                                         
+./modestcoin-cli getnewaddress                                                                                                                                        
 
 Thanks for everyones support in the community, i hope you love modestcoin as much as i do <3
 any developmental support is very much welcome, and appreciated <3
