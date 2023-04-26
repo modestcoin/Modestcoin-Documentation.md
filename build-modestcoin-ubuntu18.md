@@ -28,6 +28,8 @@ $ sudo make install
 
 ### Step 3: Build the Coin#
 
+$ git clone https://github.com/modestcoin/modestcoin.git
+
 $ ./autogen.sh                                                                                                                                                         
 
 $ ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/"                                                                                   
