@@ -1,4 +1,4 @@
-Step by Step Guide to Build Modestcoin in Ubuntu 18.04                                                                                                                  
+### Step by Step Guide to Build Modestcoin in Ubuntu 18.04                                                                                                                  
 
 ## Step 1: Install the prerequisite#
 
