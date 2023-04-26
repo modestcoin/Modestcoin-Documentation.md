@@ -22,7 +22,8 @@ $ mkdir -p build
 
 $ BDB_PREFIX=$(pwd)/build                                                                                                                                             
 
-$ ../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX                                                                                         
+$ ../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX  
+
 $ sudo make install                                                                                                                                                     
 
 ### Step 3: Build the Coin#
