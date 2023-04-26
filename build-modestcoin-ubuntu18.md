@@ -8,6 +8,7 @@ $ sudo apt-get install build-essential
 
 $ sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libevent-dev libqt4-dev libcanberra-gtk-module libdb++-dev
 
+(for ubuntu 19 and higher replace libqt4-dev with qt5*-dev in the above command)
 
 ### Step 2: Install BerkeleyDB using the below commands (If not already Installed)#
 
