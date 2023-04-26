@@ -3,6 +3,6 @@
 - 🌱 I’m currently learning how to serve you cheaper, better and faster...
 - 💞️ I’m looking to keep you safe, in the free world, and wealthy...
 - 📫 How to reach me ... $ git clone https://github.com/modestcoin/modestcoin.git 
-- (Visit howtobuild.md for detailed instructions on building modestcoin in ubuntu)
+- (Visit "build-modestcoin-ubuntu18.md" for detailed instructions)
 - 🏷️ Company website: https://modestcoincore.org
 
