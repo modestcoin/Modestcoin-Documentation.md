@@ -30,6 +30,8 @@ $ sudo make install
 
 $ git clone https://github.com/modestcoin/modestcoin.git
 
+$ cd modestcoin
+
 $ ./autogen.sh                                                                                                                                                         
 
 $ ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/"                                                                                   
