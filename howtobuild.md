@@ -3,7 +3,7 @@ Step by Step Guide to Build Modestcoin in Ubuntu 18.04
 #*Step 1: Install the prerequisite#
 
 $ sudo apt-get update  
-$ sudo apt-get install build-essential
+$ sudo apt-get install build-essential 
 $ sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libevent-dev libqt4-dev libcanberra-gtk-module libdb++-dev
 
 
