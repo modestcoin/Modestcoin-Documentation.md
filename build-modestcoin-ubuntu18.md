@@ -11,7 +11,7 @@ $ sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev l
 (for ubuntu 19 and higher replace libqt4-dev with qt5*-dev in the above command)
 
 ### Step 2: Install BerkeleyDB using the below commands (If not already Installed)#
-
+*Follow this link for Debian: https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md#berkeley-db*
 $ wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz    
 
 $ tar -xvf db-4.8.30.NC.tar.gz                                                                                                                                         
