@@ -26,7 +26,14 @@ $ BDB_PREFIX=$(pwd)/build
 
 $ ../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX  
 
-$ sudo make install                                                                                                                                                     
+$ sudo make install 
+
+
+For Certian Debian Users Only:
+(./configure \
+    BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" \
+    BDB_CFLAGS="-I${BDB_PREFIX}/include")
+
 
 ### Step 3: Build the Coin#
 
