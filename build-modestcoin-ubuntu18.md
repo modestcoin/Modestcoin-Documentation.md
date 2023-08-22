@@ -12,6 +12,8 @@ $ sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev l
 
 ### Step 2: Install BerkeleyDB using the below commands (If not already Installed)#
 *Follow this link for Debian: https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md#berkeley-db*
+
+
 $ wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz    
 
 $ tar -xvf db-4.8.30.NC.tar.gz                                                                                                                                         
